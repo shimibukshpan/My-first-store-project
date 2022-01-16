@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+:root {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h6 {
+  color: #8f0505;
+}
+
+body .navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Pacifico", cursive;
+}
+
+body .navbar-brand:hover {
+  color: black;
+}
+
+body .nav-link {
+  margin: 0 .8rem 0 .8rem;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Arvo", serif;
+  letter-spacing: .1rem;
+}
+
+body .nav-link:hover {
+  color: black;
+}
+
+body .logo {
+  width: 5rem;
+  height: 3rem;
+}
+
+body .search {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 3.75rem;
+  outline: none;
+  border: 0.125rem solid #8f0505;
+  margin-right: -2rem;
+}
+
+body .btn0 {
+  width: 5rem;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  background: #8f0505;
+  color: white;
+  border-radius: 3.75rem;
+  font-weight: 700;
+}
+
+body .main {
+  background: url(../img/img/13.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+body .main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Arvo", serif;
+  margin-top: 8rem;
+  color: #3107a3;
+  text-shadow: #bac748 0px 10px 15px;
+}
+
+body .main .btn1 {
+  width: 13rem;
+  height: 2.8125rem;
+  border: none;
+  outline: none;
+  background-color: #8f0505;
+  color: white;
+  font-weight: 700;
+  border-radius: 3.75rem;
+  margin-top: 2rem;
+}
+
+body .img-luid {
+  width: 10rem;
+}
+
+body .prouduct h1 {
+  font-weight: 700;
+}
+
+body .prouduct img {
+  width: 20rem;
+  height: 15rem;
+}
+
+body .prouduct .btn1 {
+  width: 13rem;
+  height: 2.8125rem;
+  border: none;
+  outline: none;
+  background-color: #8f0505;
+  color: white;
+  font-weight: 700;
+  border-radius: 3.75rem;
+  margin-top: 2rem;
+}
+
+body .prouduct .btn1:hover {
+  background-color: #bd3434;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .prouduct .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .about h6 {
+  margin-top: 1rem;
+}
+
+body .about .row {
+  margin-top: 3rem;
+}
+
+body img {
+  width: 20rem;
+  height: 15rem;
+}
+
+body .btn1 {
+  width: 13rem;
+  height: 2.8125rem;
+  border: none;
+  outline: none;
+  background-color: #8f0505;
+  color: white;
+  font-weight: 700;
+  border-radius: 3.75rem;
+  margin-top: 2rem;
+  margin-top: 0;
+}
+
+body .btn1:hover {
+  background-color: #bd3434;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .perfume {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.445))), url(../img/img/444.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.445)), url(../img/img/444.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+body .perfume h1 {
+  font-family: "Pacifico", cursive;
+  color: #db984c;
+}
+
+body .perfume .btn1 {
+  width: 13rem;
+  height: 2.8125rem;
+  border: none;
+  outline: none;
+  background-color: #8f0505;
+  color: white;
+  font-weight: 700;
+  border-radius: 3.75rem;
+  margin-top: 2rem;
+  margin-top: 0;
+}
+
+body .perfume .btn1:hover {
+  background-color: #bd3434;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .contact .btn1 {
+  width: 13rem;
+  height: 2.8125rem;
+  border: none;
+  outline: none;
+  background-color: #8f0505;
+  color: white;
+  font-weight: 700;
+  border-radius: 3.75rem;
+  margin-top: 2rem;
+  margin-top: 0;
+}
+
+body .contact .btn1:hover {
+  background-color: #bd3434;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .footer {
+  background-color: black;
+  color: white;
+}
+
+body .footer .btn2 {
+  width: 6.25rem;
+  height: 3rem;
+  background: white;
+  margin-left: -1.5rem;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+body .footer input {
+  width: 15rem;
+  height: 3rem;
+  border: 2px solid white;
+  outline: none;
+  background-color: black;
+  color: white;
+  margin-top: 1.1rem;
+  font-weight: 600;
+}
+
+body .footer p {
+  margin: 0;
+}
+
+body .footer .fab {
+  font-size: 2rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+body .footer::-webkit-input-placeholder {
+  color: white;
+}
+
+body .footer:-ms-input-placeholder {
+  color: white;
+}
+
+body .footer::-ms-input-placeholder {
+  color: white;
+}
+
+body .footer::placeholder {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

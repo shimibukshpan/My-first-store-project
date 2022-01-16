@@ -1,0 +1,65 @@
+@mixin nav-links {
+    margin: 0 .8rem 0 .8rem;
+    color: $nav-color;
+    text-transform: uppercase;
+    font-family: $font-family-for-nav-link;
+    letter-spacing: .1rem;
+}
+
+@mixin btn0 {
+    @include size(5rem, 2.5rem);
+    outline: none;
+    border: none;
+    background: $btn-color;
+    color: $white-color;
+    border-radius: 3.75rem;
+    @include font-weight(700);
+}
+
+@mixin btn1 {
+    @include size(13rem, 2.8125rem);
+    border: none;
+    outline: none;
+    background-color: $btn-color;
+    color: $white-color;
+    @include font-weight(700);
+    border-radius: 3.75rem;
+    margin-top: 2rem;
+}
+
+@mixin btn2 {
+    @include size(6.25rem, 3rem);
+    background: $white-color;
+    margin-left: -1.5rem;
+    border: 2px solid white;
+    @include font-weight(600);
+}
+
+@mixin btn-hover {
+    background-color: $btn-bg-color;
+    transition: 0.5s;
+}
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin cards-hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+
+@mixin font-weight($weight) {
+    font-weight: $weight;
+}
+
+@mixin inputs {
+    @include size(15rem, 3rem);
+    border: 2px solid white;
+    outline: none;
+    background-color: $nav-color;
+    color: $white-color;
+    margin-top: 1.1rem;
+    @include font-weight(600);
+}

@@ -1,0 +1,192 @@
+@import'./fonts.scss';
+@import'./mixin.scss';
+@import'./colors.scss';
+
+$font-family-for-nav:'Pacifico',
+cursive;
+$font-family-for-nav-link:'Arvo',
+serif;
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h6 {
+    color: $btn-color;
+}
+
+body {
+
+    .navbar-brand {
+        font-size: 2rem;
+        color: $nav-color;
+        font-family: $font-family-for-nav;
+    }
+
+    .navbar-brand:hover {
+        color: $nav-color;
+    }
+
+    .nav-link {
+        @include nav-links;
+    }
+
+    .nav-link:hover {
+        color: $nav-color;
+    }
+
+    .logo {
+        @include size(5rem, 3rem);
+    }
+
+    .search {
+        @include size(10rem, 2.5rem);
+        border-radius: 3.75rem;
+        outline: none;
+        border: 0.125rem solid $btn-color;
+        margin-right: -2rem;
+    }
+
+    .btn0 {
+        @include btn0;
+    }
+
+    .main {
+        background: url(../img/img/13.jpg) no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        @include size(100%, 100vh);
+
+        h1 {
+            font-size: 4rem;
+            @include font-weight(700);
+            font-family: $font-family-for-nav-link;
+            margin-top: 8rem;
+            color: $h1-main-color;
+            text-shadow: rgb(186, 199, 72) 0px 10px 15px;
+        }
+
+        .btn1 {
+            @include btn1;
+        }
+    }
+
+    .img-luid {
+        width: 10rem;
+    }
+
+    .prouduct {
+        h1 {
+            @include font-weight(700);
+        }
+
+        img {
+            @include size(20rem, 15rem);
+        }
+
+        .btn1 {
+            @include btn1;
+        }
+
+        .btn1:hover {
+            @include btn-hover;
+        }
+
+        .card:hover {
+            @include cards-hover;
+        }
+    }
+
+    .about {
+        h6 {
+            margin-top: 1rem;
+        }
+
+        .row {
+            margin-top: 3rem;
+        }
+    }
+
+
+    img {
+        @include size(20rem, 15rem);
+    }
+
+    .btn1 {
+        @include btn1;
+        margin-top: 0;
+    }
+
+    .btn1:hover {
+        @include btn-hover;
+    }
+
+    .card:hover {
+        @include cards-hover;
+    }
+
+    .perfume {
+        background: linear-gradient(rgba(0, 0, 0, 0.445)), url(../img/img/444.jpg)no-repeat;
+        background-size: cover;
+        @include size(100%, 80vh);
+
+        h1 {
+            font-family: $font-family-for-nav;
+            color: $h1-perfume-color;
+        }
+
+        .btn1 {
+            @include btn1;
+            margin-top: 0;
+        }
+
+        .btn1:hover {
+            @include btn-hover;
+        }
+    }
+
+    .contact {
+
+        .btn1 {
+            @include btn1;
+            margin-top: 0;
+        }
+
+        .btn1:hover {
+            @include btn-hover;
+        }
+    }
+
+    .footer {
+        background-color: $nav-color;
+        color: $white-color;
+
+        .btn2 {
+            @include btn2;
+        }
+
+        input {
+            @include inputs;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .fab {
+            font-size: 2rem;
+            cursor: pointer;
+            padding-right: 5px;
+        }
+    }
+
+    .footer::placeholder {
+        color: $white-color;
+    }
+}
